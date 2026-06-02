@@ -1,50 +1,104 @@
-# Data Science 2026 - Universitas Siber Asia
+<div align="center">
 
-Repository ini berisi hasil hands-on praktikum mata kuliah **Data Science** Universitas Siber Asia (UNSIA).
+# 📊 Data Science 2026
+### Hands-on Praktikum Mata Kuliah Data Science
+**Universitas Siber Asia (UNSIA)**
 
-## Pertemuan 2 - Exploratory Data Analysis (EDA) dengan Dataset Titanic
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat-square&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google-Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 
-### Deskripsi
-Praktikum Pertemuan 2 menggunakan dataset Titanic untuk melakukan eksplorasi data dasar menggunakan Python (Pandas & NumPy) di Google Colab.
+</div>
 
-### Materi yang Dikerjakan
-- Load dataset dari URL (Titanic CSV)
-- Eksplorasi struktur data (`df.info()`, `df.shape`, `df.columns`)
-- Identifikasi missing values (`df.isnull().sum()`)
-- Analisis data survival:
-  - Persentase penumpang yang selamat
-  - Rata-rata usia wanita kelas 1 yang selamat
-  - Kelas dengan tingkat keselamatan tertinggi
-  - Rata-rata survival rate per kelas
+---
 
-### Tools & Library
-| Tools | Keterangan |
-|-------|-----------|
-| Python 3 | Bahasa pemrograman utama |
-| Google Colaboratory | Environment notebook |
-| Pandas | Manipulasi & analisis data |
-| NumPy | Komputasi numerik |
+## 👤 Identitas Mahasiswa
 
-### Cara Menjalankan
-1. Buka file `.ipynb` di [Google Colab](https://colab.research.google.com/)
-2. Klik **Runtime > Run All**
-3. Notebook otomatis mengunduh dataset Titanic dari GitHub
+| Keterangan | Detail |
+|---|---|
+| **Nama** | RANU RATMAJA |
+| **NIM** | 230401010104 |
+| **Program Studi** | Sistem Informasi |
+| **Universitas** | Universitas Siber Asia (UNSIA) |
+| **Angkatan** | 2023 |
+| **Email** | ranu.ratmaja@mhs.unsia.ac.id |
 
-### Dataset
-- **Sumber:** Titanic CSV - datasciencedojo
-- **Jumlah baris:** 891
-- **Jumlah kolom:** 12
+---
 
-## Struktur Repository
+## 📂 Daftar Tugas Praktikum
 
-```
-data-science-2026/
-├── Pertemuan2_RANU_RATMAJA_230401010104.ipynb
-└── README.md
-```
+| No | Pertemuan | Topik | Dataset | Status |
+|:---:|---|---|---|:---:|
+| 1 | [Pertemuan 1](./Pertemuan1_RANU_RATMAJA_230401010104.ipynb) | Pengenalan Python & Dasar Pemrograman | Built-in Python | ✅ |
+| 2 | [Pertemuan 2](./Pertemuan2_RANU_RATMAJA_230401010104.ipynb) | Exploratory Data Analysis (EDA) | Iris Dataset | ✅ |
+| 3 | [Pertemuan 3](./Pertemuan3_RANU_RATMAJA_230401010104.ipynb) | Visualisasi Data | Iris Dataset | ✅ |
+| 4 | [Pertemuan 4](./Pertemuan4_RANU_RATMAJA_230401010104.ipynb) | Machine Learning: Klasifikasi (KNN) | Breast Cancer Wisconsin | ✅ |
+| 5 | [Pertemuan 5](./Pertemuan5_RANU_RATMAJA_230401010104.ipynb) | Machine Learning: Regresi | California Housing | ✅ |
+| 6 | [Pertemuan 6](./Pertemuan6_RANU_RATMAJA_230401010104.ipynb) | Unsupervised Learning: K-Means Clustering | Customer Segmentation | ✅ |
 
-## Author
-- **Nama:** RANU RATMAJA
-- **NIM:** 230401010104
-- **Universitas:** Universitas Siber Asia (UNSIA)
-- **Mata Kuliah:** Data Science
+---
+
+## 🛠️ Tools & Teknologi
+
+| Tools | Fungsi |
+|---|---|
+| 🐍 **Python 3.10** | Bahasa pemrograman utama |
+| 📓 **Jupyter Notebook** | Lingkungan pengembangan interaktif |
+| ☁️ **Google Colaboratory** | Cloud-based notebook execution |
+| 🐼 **Pandas** | Manipulasi dan analisis data |
+| 🔢 **NumPy** | Komputasi numerik dan array |
+| 📊 **Matplotlib** | Visualisasi data dasar |
+| 🎨 **Seaborn** | Visualisasi data statistik |
+| 🤖 **Scikit-learn** | Machine learning & preprocessing |
+
+---
+
+## 📚 Ringkasan Materi
+
+### 🔹 Pertemuan 1 — Dasar Python
+Membahas fundamental Python meliputi variabel, tipe data, operator, struktur kontrol, fungsi, list, dan dictionary. Diterapkan melalui studi kasus profil mahasiswa dan perhitungan nilai akademik.
+
+### 🔹 Pertemuan 2 — Exploratory Data Analysis
+Eksplorasi dataset Iris menggunakan Pandas dan NumPy: analisis struktur data, statistik deskriptif, identifikasi missing values, dan distribusi kelas spesies.
+
+### 🔹 Pertemuan 3 — Visualisasi Data
+Pembuatan berbagai jenis visualisasi menggunakan Matplotlib & Seaborn: histogram, scatter plot, box plot, dan heatmap korelasi pada dataset Iris.
+
+### 🔹 Pertemuan 4 — Klasifikasi dengan KNN
+Implementasi algoritma K-Nearest Neighbors untuk klasifikasi kanker payudara. Meliputi preprocessing data, training model, confusion matrix, classification report, dan pencarian nilai K optimal.
+
+### 🔹 Pertemuan 5 — Regresi Linear & Polinomial
+Penerapan Linear Regression dan Polynomial Regression untuk prediksi harga rumah menggunakan dataset California Housing, dievaluasi dengan MSE, RMSE, dan R-squared.
+
+### 🔹 Pertemuan 6 — Clustering K-Means
+Segmentasi pelanggan menggunakan algoritma K-Means Clustering dengan metode Elbow dan Silhouette Score untuk menentukan jumlah cluster optimal.
+
+---
+
+## ⚙️ Cara Menjalankan Notebook
+
+1. **Clone repository ini:**
+   ```bash
+   git clone https://github.com/RanzCoder119/data-science-2026.git
+   ```
+2. **Buka file `.ipynb`** menggunakan Jupyter Notebook atau Google Colab
+3. **Install dependensi** yang dibutuhkan:
+   ```bash
+   pip install numpy pandas matplotlib seaborn scikit-learn
+   ```
+4. **Jalankan setiap cell** secara berurutan
+
+---
+
+## 📌 Catatan
+
+> Repository ini dibuat untuk keperluan akademik dalam rangka memenuhi tugas praktikum mata kuliah **Data Science** di Universitas Siber Asia (UNSIA). Setiap notebook dikerjakan secara mandiri dan menggunakan dataset yang berbeda-beda untuk menghindari duplikasi.
+
+---
+
+<div align="center">
+
+*Dibuat dengan ❤️ oleh RANU RATMAJA — UNSIA 2023*
+
+</div>
